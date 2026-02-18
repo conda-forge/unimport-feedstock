@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: unimport
-  version: 1.3.0
+  version: "1.3.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/unimport-${{ version }}.tar.gz
-  sha256: 0842600bc89635bc8b5653318c76a1932854ab202836ff50ba797085a1a09d94
+  sha256: 5b5fd8beae541966f116682f6addc6c34dec0e60630a27468a8ffefa52d20b50
 
 build:
   number: 0
